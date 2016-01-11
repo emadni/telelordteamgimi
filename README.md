@@ -30,9 +30,24 @@
 >>>
 >>>_Only works in realms But sudo users can use it everywhere_
 
-### Add
+###Add or remove groups
 >/add
->>This command will add that group in database
+>>This command will add that group
+>
+>/rem
+>>This command will remove that group
+
+###Leaving
+>/leave
+>>Bot will leave that group
+
+###Everything about groups
+>/all
+>>This command will return everything about that group
+>
+>/all [group_id]
+>>_Only onwer,admin and sudo users can use this command
+
 
 ### Setting description in realm
 > /setabout [Group_id] [text]
@@ -147,15 +162,15 @@ _Sudo users and admins can also use this commands in all groups_
 >/banlist
 >>This command will return bans list
 
-### group name|member|arabic|flood lock
->/lock [name|member|arabic|flood]
+### group name|member|arabic|flood|bots lock
+>/lock [name|member|arabic|flood|bots]
 >>/lock flood
->>>This command will lock name|member|arabic|flood of groups
+>>>This command will lock name|member|arabic|flood|bots of groups
 
-### group name|member|arabic|flood unlock
->/unlock [name|member|arabic|flood]
+### group name|member|arabic|flood|bots unlock
+>/unlock [name|member|arabic|flood|bots]
 >>/unlock flood
->>>This command will unlock name|member|arabic|flood of groups
+>>>This command will unlock name|member|arabic|flood|bots of groups
 
 ### Group modlist|rules|about|member clean
 >/clean [modlist|rules|about|member]
